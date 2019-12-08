@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ps="http://ivc.kz/SOApExample">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ps:getPersonRequest>
+            <ps:name>Zharkyn</ps:name>
+        </ps:getPersonRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
